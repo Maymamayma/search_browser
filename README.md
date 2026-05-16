@@ -1,18 +1,17 @@
 # Search Browser
 
-Mini moteur de recherche utilisant un crawler asynchrone, un index inversé
-et une API FastAPI.
+A mini search engine using an asynchronous crawler, an inverted index, and a FastAPI API.
 
 ## Installation
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-## Lancer l'API
+## Run the API
 python run.py
 
-## Dossiers
-- crawler/ : récupère les pages web
+## Folders
+- crawler/ : fetches web pages
 - indexer/ : indexation et scoring
 - api/ : backend FastAPI
-- frontend/ : interface utilisateur
+- frontend/ : user interface
